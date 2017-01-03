@@ -6,14 +6,15 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     width: getWidthPercent(100),
     height: getHeightPercent(100),
+    marginTop: 30
   },
   contentContainer: {
     width: getWidthPercent(100),
     backgroundColor: 'white',
   },
   touchFlag: {
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
   imgStyle: {
     resizeMode: 'contain',
@@ -24,8 +25,8 @@ export default StyleSheet.create({
     opacity: 0.8,
   },
   emojiFlag: {
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center',
+    // justifyContent: 'center',
     fontSize: 30,
     width: 30,
     height: 30,
