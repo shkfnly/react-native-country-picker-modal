@@ -179,6 +179,7 @@ export default class CountryPicker extends Component {
         >
           <View style={[styles.touchFlag, this.props.flagStyle]}>
             {this.renderFlag(this.props.cca2)}
+            {this.props.children}
           </View>
         </TouchableOpacity>
         <Modal
