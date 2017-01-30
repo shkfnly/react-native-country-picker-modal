@@ -178,8 +178,10 @@ export default class CountryPicker extends Component {
           activeOpacity={0.7}
         >
           <View style={[styles.touchFlag, this.props.flagStyle]}>
-            {this.renderFlag(this.props.cca2)}
-            {this.props.children}
+            <View  style={{flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
+              {this.renderFlag(this.props.cca2)}
+              {this.props.children}
+            </View>
           </View>
         </TouchableOpacity>
         <Modal
