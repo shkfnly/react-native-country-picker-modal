@@ -66,8 +66,8 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   letter: {
-    height: getHeightPercent(3.3),
-    width: getWidthPercent(4),
+    height: getHeightPercent(3.5),
+    width: getWidthPercent(6),
     justifyContent: 'center',
     alignItems: 'center',
   },
